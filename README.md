@@ -23,6 +23,9 @@ This app allows users to log their mood, temperature, and notes based on the wea
 - Allow deletion or edit of entries
 - Filter entries by temperature or date
 
+## 📷 Screenshot
+![Weather journal App](weather-journal-app.PNG)
+
 ---
 
 Made with ❤️ by Bryan Dave
