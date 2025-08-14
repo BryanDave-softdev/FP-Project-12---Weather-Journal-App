@@ -1,24 +1,29 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" , initial-scale=1.0" />
-  <title>Daily Mood Tracker</title>
-  <link rel="stylesheet" href="style.css" />
-
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Weather Journal</title>
+   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-  <div class="container">
-    <h1>How Are You Feeling Today?</h1>
-    <input type="text" id="moodInput" placeholder="Enter your mood.." />
-    <button onclick="trackMood()">Submit</button>
-    <p id="response"></p>
-  </div>
-  <script src="script.js"></script>
-</body>
+   <div class="container">
+     <h1🌦️ Weather Journal</h1🌦️>
 
-</html>
+     <div class="form">
+       <input type="date" id="date" />
+       <input type="text" id="mood" placeholder="Mood (e.g. Happy, fired)" />
+       <input type="number" id="temperature" placeholder="Temperature" (°C)" />
+       <textarea id="notes" placeholder="What's the weather like?"></textarea>
+       <button id="submitBtn">Save Entry</button>
+     </div>
+
+      <div class="journal">
+        <h2>📚 Journal Entries</h2>
+        <div id="entries"></div>
+      </div>
+    </div>
+
+   <script src="app.js"></script>
+   </body>
+   </html>
